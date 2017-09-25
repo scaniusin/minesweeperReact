@@ -1,0 +1,75 @@
+
+.cell{
+    width: 40px !important;
+    height: 40px;
+    border: 0.5px solid gray;
+    background-color: #BDBDBD;
+    padding: 0 !important;
+    font-size: 17px;
+}
+
+.cell .isOpened{
+    background-color: #FAFAFA !important;
+    width: 39px;
+    height: 39px;
+    padding: 10px;
+}
+.cell .isOpened{
+    background-color: #FAFAFA !important;
+    width: 39px;
+    height: 39px;
+    padding: 10px;
+}
+.cell .hasMine{
+    background-color: red !important;
+    width: 39px;
+    height: 39px;
+    background: url('/img/bomb.svg');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 2px;
+}
+.cell .hasFlag{
+    width: 39px;
+    height: 39px;
+    padding: 10px;
+    background: url('/img/flag.svg');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 2px;
+}
+.cell .foundMine{
+    background-color: yellowgreen !important;
+    width: 39px;
+    height: 39px;
+    background: url('/img/bomb.svg');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 2px;
+}
+.cell .foundMine span{
+    color: red;
+    font-size: 32px;
+}
+.notFoundMine{
+    background-color: orange !important;
+    width: 39px;
+    height: 39px;
+    background: url('/img/flag.svg');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 2px;
+}
+.cell .notFoundMine span{
+    color: white;
+    font-size: 32px;
+}
+.number1{
+    color: green;
+}
+.number2{
+    color: blue;
+}
+.number3, .number4, .number5, .number6, .number7, .number8 {
+    color: red;
+}
