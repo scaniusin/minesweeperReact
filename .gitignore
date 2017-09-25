@@ -1,3 +1,5 @@
 /build
 /node_modules
-.idea/inspectionProfiles/
+.idea
+package-lock.json
+
